@@ -26,3 +26,7 @@ class _20_validBracket {
 	    System.out.println( isValid(s) );
     }
 }
+//取括号的配对情况应该用压栈出栈，这里应该用数组进行，我用String还是欠妥
+//case该break就break,不要以为return了就可以不break，指不定return不成功就执行下一个语句去了
+//java是强类型，不要对char做位运算
+//java是强类型，不要把非零数当作true,0当成false
