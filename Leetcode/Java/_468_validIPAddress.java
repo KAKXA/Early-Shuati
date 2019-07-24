@@ -1,6 +1,6 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-class validIPAddress{
+class _268_validIPAddress{
     public String validIPAddress(String IP) {
         String str1 = "\\d{1,3}(\\.)\\d{1,3}(\\.)\\d{1,3}(\\.)\\d{1,3}";
         String str2 = "[123456789](\\d)*|0";

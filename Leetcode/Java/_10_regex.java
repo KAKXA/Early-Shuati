@@ -1,5 +1,5 @@
 import java.util.regex.Pattern;
-class Solution {
+class _10_regex{
     public boolean isMatch(String s, String p) {
         return Pattern.matches(p, s);
     }
