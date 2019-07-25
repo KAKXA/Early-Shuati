@@ -17,3 +17,4 @@ def romanToInt(self,stri):
     return sum
 #在使用python的while循环时记得自增
 #Leetcode 13
+#别用异常处理阿！用if
