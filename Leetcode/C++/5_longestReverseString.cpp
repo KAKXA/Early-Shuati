@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 #define min(a,b) (((a<b)?a:b))
-int getMove(string s,int left,int right)
+int getMove(string& s,int left,int right)	//这里取引用速度会变快很多
 {
 	int i;
 	int len = s.length();
@@ -44,6 +44,19 @@ string longestPalindrome(string s) {
 	}
 	return s.substr(maxStart,max);
 }
+
+//以下是更好的算法，专门解决最长回文子串问题，Manacher算法
+int Manacher(string s)
+{
+	int len = strlen(s);
+	string tempS;
+	tempS.append('$');
+	for( int i = 0 ; i < s.length() ; i++ )
+	{
+	}
+}
+
+//以下是时间复杂度更高但具有普适性的动态规划法
 
 int main()
 {
