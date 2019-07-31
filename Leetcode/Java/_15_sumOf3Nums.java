@@ -16,7 +16,7 @@ class _15_sumOf3Nums{
                 else if(add < 0)    left++;
                 else
                 {
-                    ans.add(Arrays.asList(nums[left],nums[right],t1));
+                    ans.add(Arrays.asList(nums[left],nums[right],t1));	//用这种方式插入List!
                     left++;
                     right--;
                     while( left < right && nums[left] == nums[left - 1])    left++;
@@ -27,3 +27,6 @@ class _15_sumOf3Nums{
         return ans;
     }
 }
+//此解法还不够块，请参看16题的极限剪枝
+//创建临时List的方法Arrays.asList(a,b,c);
+//要时刻防止数组越界
