@@ -1,13 +1,13 @@
 #include<cstdio>
-int* fuc(int n){
-	int* tempPtr;
+long long* fuc(int n){
+	long long* tempPtr;
 	if(n > 1){
 		tempPtr = fuc(n-1);
 		tempPtr[0] = tempPtr[0]*2 + tempPtr[1];
 		tempPtr[1] = tempPtr[0] - tempPtr[1];
 	}
 	else{
-		int* all = new int[2];
+		long long* all = new long long[2];
 		all[0] = 3;
 		all[1] = 2;
 		return all;
@@ -22,7 +22,7 @@ int main(){
 			printf("0\n");
 		}
 		else{
-			printf("%d\n", fuc(len)[0]);
+			printf("%lld\n", fuc(len)[0]);
 		}
 	}
 }
