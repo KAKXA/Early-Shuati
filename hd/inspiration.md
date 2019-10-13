@@ -8,6 +8,13 @@
 
 ## 2032.cpp
 
-1. **No unnecessary spaces and lines, especially in the output of a stream of number split by spaces and changed line by `\n`.
+1. **No unnecessary spaces and lines**, especially in the output of a stream of number split by spaces and changed line by `\n`.
 
-##
+## 2099.cpp
+
+1. use `"%02d"` to output like a number with pre-zeros.
+
+## 2007.cpp
+
+1. Do not posture that the former input is larger input, because the description doesn't say that.
+
