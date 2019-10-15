@@ -40,3 +40,6 @@
 
 1. Be habitual to write a `\n` after all output.
 
+## 2025.cpp
+
+1. If you use `!cin.eof()` and it throw segmentation fault, just check if `getline()` return true, if not, return 0;
