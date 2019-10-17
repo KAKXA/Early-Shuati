@@ -43,3 +43,7 @@
 ## 2025.cpp
 
 1. If you use `!cin.eof()` and it throw segmentation fault, just check if `getline()` return true, if not, return 0;
+
+## 2034.cpp
+
+1. Be careful to input 2 `\n` in the if and out of it.
